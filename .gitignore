@@ -1,5 +1,6 @@
 ### IntelliJ IDEA ###
 out/
+dz1zad2.iml
 !**/src/main/**/out/
 !**/src/test/**/out/
 
@@ -12,7 +13,6 @@ out/
 .springBeans
 .sts4-cache
 .idea
-dz1zad2.iml
 bin/
 !**/src/main/**/bin/
 !**/src/test/**/bin/
