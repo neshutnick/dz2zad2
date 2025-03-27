@@ -3,11 +3,11 @@ public class Main {
 
         int balance = 350; //начальный баланс
         int payment = 1135; //сумма пополнения
-        int porog = 1000; //бонусный порог
+        int threshold = 1000; //бонусный порог
         int bonus; // переменная для бонуса
         int result; //переменная для итогового баланса
 
-        if (payment >= porog) {
+        if (payment > threshold) {
             bonus = payment / 100;
 
         } else {
